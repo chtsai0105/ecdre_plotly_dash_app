@@ -69,8 +69,8 @@ def get_dataframe(amplicon_type, tissue, treatment, rank):
     metadata = metadata_df[metadata_df.index.isin(otu_df.columns)]
     sel_idx = metadata[(metadata["Treatment"] == treatment) & (metadata["Tissue_type"] == tissue)].index
     otu_df = otu_df.loc[:, sel_idx]
-    perc_df = otu_df / otu_df.sum()
-    perc_df = pd.merge(perc_df, taxa_df, left_index=True, right_index=True).groupby(by=rank).sum(numeric_only=True)
+    perc_df = otu_df / otu_df.sum() * 100
+    perc_df = pd.merge(perc_df, taxa_df, left_index=True, right_index=True).groupby(by=list(phylo_ranks[: phylo_ranks.index(rank) + 1])).sum(numeric_only=True)
     perc_df = perc_df.reindex(perc_df.mean(axis=1).sort_values(ascending=False).index)
     perc_df = perc_df[perc_df.sum(axis=1) != 0]
     return perc_df, metadata
@@ -87,18 +87,25 @@ def get_dataframe(amplicon_type, tissue, treatment, rank):
 def update_graph(amplicon_type, tissue, treatment, rank):
     perc_df, metadata = get_dataframe(amplicon_type, tissue, treatment_dict_app[treatment], rank)
     fig = go.Figure()
-    for name in perc_df.index:
+    for ids in perc_df.index:
+        lineages = [taxon for taxon in ids if taxon != "Unclassified"]
+        lineages = ["Unclassified"] if not lineages else lineages
         fig.add_trace(
             go.Bar(
-                x=[
+                x=[[f"{x}, {y}" 
+                    for x, y in zip(
+                        metadata.loc[perc_df.columns, "Tissue_type"],
+                        metadata.loc[perc_df.columns, "Year"])
+                        ],
+                    perc_df.columns],
+                y=perc_df.loc[ids],
+                name=lineages[-1],
+                hovertemplate='<br>'.join(
                     [
-                        f"{x}, {y}"
-                        for x, y in zip(metadata.loc[perc_df.columns, "Tissue_type"], metadata.loc[perc_df.columns, "Year"])
-                    ],
-                    perc_df.columns,
-                ],
-                y=perc_df.loc[name],
-                name=name,
+                        '%{y:.4f}',
+                        f'{";".join(lineages)}'
+                    ]
+                ),
             )
         )
     fig.update_layout(barmode="stack")

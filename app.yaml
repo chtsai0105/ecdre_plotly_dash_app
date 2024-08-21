@@ -1,0 +1,11 @@
+runtime: python10
+
+entrypoint: gunicorn -b :$PORT app:server
+
+instance_class: F2  # Optional, specify the instance class
+env_variables:  # Optional, add environment variables
+  DASH_DEBUG: 'False'
+
+# handlers:
+# - url: /static
+#   static_dir: static

@@ -1,0 +1,227 @@
+,Year,Tissue_type,Location,Treatment
+Soil1-1-T0,2021,Bulk soil,California,CCC
+Soil1-2-T0,2021,Bulk soil,California,CCC
+Soil2-1-T0,2021,Bulk soil,California,CCC
+Soil2-2-T0,2021,Bulk soil,California,CCC
+Soil3-1-T0,2021,Bulk soil,California,CCC
+Soil3-2-T0,2021,Bulk soil,California,CCC
+Soil4-1-T0,2021,Bulk soil,California,CCC
+Soil4-2-T0,2021,Bulk soil,California,CCC
+Soil5-1-T0,2021,Bulk soil,California,CCC
+Soil5-2-T0,2021,Bulk soil,California,CCC
+CCCR1R1,2021,Rhizosphere,California,CCC
+CCCR2R1,2021,Rhizosphere,California,CCC
+CCCR3R1,2021,Rhizosphere,California,CCC
+CCCR4R1,2021,Rhizosphere,California,CCC
+MCCR1R1,2021,Rhizosphere,California,MCC
+MCCR2R1,2021,Rhizosphere,California,MCC
+MCCR3R1,2021,Rhizosphere,California,MCC
+MCCR4R1,2021,Rhizosphere,California,MCC
+CGCR1R1,2021,Rhizosphere,California,CGC
+CGCR2R1,2021,Rhizosphere,California,CGC
+CGCR3R1,2021,Rhizosphere,California,CGC
+CGCR4R1,2021,Rhizosphere,California,CGC
+CCHR1R2,2021,Rhizosphere,California,CCH
+CCHR2R1,2021,Rhizosphere,California,CCH
+CCHR3R1,2021,Rhizosphere,California,CCH
+CCHR4R1,2021,Rhizosphere,California,CCH
+MGCR1R1,2021,Rhizosphere,California,MGC
+MGCR2R1,2021,Rhizosphere,California,MGC
+MGCR3R1,2021,Rhizosphere,California,MGC
+MGCR4R1,2021,Rhizosphere,California,MGC
+MCHR1R1,2021,Rhizosphere,California,MCH
+MCHR2R1,2021,Rhizosphere,California,MCH
+MCHR3R1,2021,Rhizosphere,California,MCH
+MCHR4R1,2021,Rhizosphere,California,MCH
+MGHR1R1,2021,Rhizosphere,California,MGH
+MGHR2R1,2021,Rhizosphere,California,MGH
+MGHR2R2,2021,Rhizosphere,California,MGH
+MGHR4R1,2021,Rhizosphere,California,MGH
+R-T0-MCC1,2021,Roots,California,MCC
+R-T0-MCC2,2021,Roots,California,MCC
+R-T0-MCC3,2021,Roots,California,MCC
+R-T0-MCC4,2021,Roots,California,MCC
+R-T0-CGC1,2021,Roots,California,CGC
+R-T0-CGC2,2021,Roots,California,CGC
+R-T0-CGC3,2021,Roots,California,CGC
+R-T0-CGC4,2021,Roots,California,CGC
+R-T0-CCH1,2021,Roots,California,CCH
+R-T0-CCH2,2021,Roots,California,CCH
+R-T0-CCH3,2021,Roots,California,CCH
+R-T0-CCH4,2021,Roots,California,CCH
+R-T0-MGC1,2021,Roots,California,MGC
+R-T0-MGC2,2021,Roots,California,MGC
+R-T0-MGC3,2021,Roots,California,MGC
+R-T0-MGC4,2021,Roots,California,MGC
+R-T0-MCH1,2021,Roots,California,MCH
+R-T0-MCH2,2021,Roots,California,MCH
+R-T0-MCH3,2021,Roots,California,MCH
+R-T0-MCH4,2021,Roots,California,MCH
+R-T0-CGH1,2021,Roots,California,CGH
+R-T0-CGH2,2021,Roots,California,CGH
+R-T0-CGH3,2021,Roots,California,CGH
+R-T0-CGH4,2021,Roots,California,CGH
+R-T0-MGH1,2021,Roots,California,MGH
+R-T0-MGH2,2021,Roots,California,MGH
+R-T0-MGH3,2021,Roots,California,MGH
+R-T0-MGH4,2021,Roots,California,MGH
+L-T0-CCC1,2021,Leaves,California,CCC
+L-T0-CCC2,2021,Leaves,California,CCC
+L-T0-CCC3,2021,Leaves,California,CCC
+L-T0-CCC4,2021,Leaves,California,CCC
+L-T0-MCC1,2021,Leaves,California,MCC
+L-T0-MCC2,2021,Leaves,California,MCC
+L-T0-MCC3,2021,Leaves,California,MCC
+L-T0-MCC4,2021,Leaves,California,MCC
+L-T0-CGC1,2021,Leaves,California,CGC
+L-T0-CGC2,2021,Leaves,California,CGC
+L-T0-CGC3,2021,Leaves,California,CGC
+L-T0-CGC4,2021,Leaves,California,CGC
+L-T0-CCH1,2021,Leaves,California,CCH
+L-T0-CCH2,2021,Leaves,California,CCH
+L-T0-CCH3,2021,Leaves,California,CCH
+L-T0-CCH4,2021,Leaves,California,CCH
+L-T0-MGC1,2021,Leaves,California,MGC
+L-T0-MGC2,2021,Leaves,California,MGC
+L-T0-MGC3,2021,Leaves,California,MGC
+L-T0-MGC4,2021,Leaves,California,MGC
+L-T0-MCH1,2021,Leaves,California,MCH
+L-T0-MCH2,2021,Leaves,California,MCH
+L-T0-MCH3,2021,Leaves,California,MCH
+L-T0-MCH4,2021,Leaves,California,MCH
+L-T0-CGH1,2021,Leaves,California,CGH
+L-T0-CGH2,2021,Leaves,California,CGH
+L-T0-CGH3,2021,Leaves,California,CGH
+L-T0-CGH4,2021,Leaves,California,CGH
+L-T0-MGH1,2021,Leaves,California,MGH
+L-T0-MGH2,2021,Leaves,California,MGH
+L-T0-MGH3,2021,Leaves,California,MGH
+L-T0-MGH4,2021,Leaves,California,MGH
+CCCT1-S1,2022,Bulk soil,California,CCC
+CCCT1-S2,2022,Bulk soil,California,CCC
+CCCT1-S3,2022,Bulk soil,California,CCC
+CCCT1-S4,2022,Bulk soil,California,CCC
+MCCT1-S1,2022,Bulk soil,California,MCC
+MCCT1-S2,2022,Bulk soil,California,MCC
+MCCT1-S3,2022,Bulk soil,California,MCC
+MCCT1-S4,2022,Bulk soil,California,MCC
+CGCT1-S1,2022,Bulk soil,California,CGC
+CGCT1-S2,2022,Bulk soil,California,CGC
+CGCT1-S3,2022,Bulk soil,California,CGC
+CGCT1-S4,2022,Bulk soil,California,CGC
+CCHT1-S1,2022,Bulk soil,California,CCH
+CCHT1-S2,2022,Bulk soil,California,CCH
+CCHT1-S3,2022,Bulk soil,California,CCH
+CCHT1-S4,2022,Bulk soil,California,CCH
+MGCT1-S2,2022,Bulk soil,California,MGC
+MGCT1-S3,2022,Bulk soil,California,MGC
+MGCT1-S4,2022,Bulk soil,California,MGC
+MGCT1-S4-REDO,2022,Bulk soil,California,MGC
+MCHT1-S1,2022,Bulk soil,California,MCH
+MCHT1-S2,2022,Bulk soil,California,MCH
+MCHT1-S3,2022,Bulk soil,California,MCH
+MCHT1-S4,2022,Bulk soil,California,MCH
+CGHT1-S1,2022,Bulk soil,California,CGH
+CGHT1-S2,2022,Bulk soil,California,CGH
+CGHT1-S3,2022,Bulk soil,California,CGH
+CGHT1-S4,2022,Bulk soil,California,CGH
+MGHT1-S1,2022,Bulk soil,California,MGH
+MGHT1-S2,2022,Bulk soil,California,MGH
+MGHT1-S3,2022,Bulk soil,California,MGH
+MGHT1-S4,2022,Bulk soil,California,MGH
+CCCT1R1,2022,Rhizosphere,California,CCC
+CCCT1R2,2022,Rhizosphere,California,CCC
+CCCT1R3,2022,Rhizosphere,California,CCC
+CCCT1R4,2022,Rhizosphere,California,CCC
+MCCT1R1,2022,Rhizosphere,California,MCC
+MCCT1R2,2022,Rhizosphere,California,MCC
+MCCT1R3,2022,Rhizosphere,California,MCC
+MCCT1R4,2022,Rhizosphere,California,MCC
+CGCT1R1,2022,Rhizosphere,California,CGC
+CGCT1R2,2022,Rhizosphere,California,CGC
+CGCT1R3,2022,Rhizosphere,California,CGC
+CGCT1R4,2022,Rhizosphere,California,CGC
+CCHT1R1,2022,Rhizosphere,California,CCH
+CCHT1R2,2022,Rhizosphere,California,CCH
+CCHT1R3,2022,Rhizosphere,California,CCH
+CCHT1R4,2022,Rhizosphere,California,CCH
+MGCT1R1,2022,Rhizosphere,California,MGC
+MGCT1R2,2022,Rhizosphere,California,MGC
+MGCT1R3,2022,Rhizosphere,California,MGC
+MGCT1R4,2022,Rhizosphere,California,MGC
+MCHT1R1,2022,Rhizosphere,California,MCH
+MCHT1R2,2022,Rhizosphere,California,MCH
+MCHT1R3,2022,Rhizosphere,California,MCH
+MCHT1R4,2022,Rhizosphere,California,MCH
+CGHT1R1,2022,Rhizosphere,California,CGH
+CGHT1R2,2022,Rhizosphere,California,CGH
+CGHT1R3,2022,Rhizosphere,California,CGH
+CGHT1R4,2022,Rhizosphere,California,CGH
+MGHT1R1,2022,Rhizosphere,California,MGH
+MGHT1R2,2022,Rhizosphere,California,MGH
+MGHT1R3,2022,Rhizosphere,California,MGH
+MGHT1R4,2022,Rhizosphere,California,MGH
+R-T1-CCC1,2022,Roots,California,CCC
+R-T1-CCC2,2022,Roots,California,CCC
+R-T1-CCC3,2022,Roots,California,CCC
+R-T1-CCC4,2022,Roots,California,CCC
+R-T1-MCC1,2022,Roots,California,MCC
+R-T1-MCC2,2022,Roots,California,MCC
+R-T1-MCC3,2022,Roots,California,MCC
+R-T1-MCC4,2022,Roots,California,MCC
+R-T1-CGC1,2022,Roots,California,CGC
+R-T1-CGC2,2022,Roots,California,CGC
+R-T1-CGC3,2022,Roots,California,CGC
+R-T1-CGC4,2022,Roots,California,CGC
+R-T1-CCH1,2022,Roots,California,CCH
+R-T1-CCH2,2022,Roots,California,CCH
+R-T1-CCH3,2022,Roots,California,CCH
+R-T1-CCH4,2022,Roots,California,CCH
+R-T1-MGC1,2022,Roots,California,MGC
+R-T1-MGC2,2022,Roots,California,MGC
+R-T1-MGC3,2022,Roots,California,MGC
+R-T1-MGC4,2022,Roots,California,MGC
+R-T1-MCH1,2022,Roots,California,MCH
+R-T1-MCH2,2022,Roots,California,MCH
+R-T1-MCH3,2022,Roots,California,MCH
+R-T1-MCH4,2022,Roots,California,MCH
+R-T1-CGH1,2022,Roots,California,CGH
+R-T1-CGH2,2022,Roots,California,CGH
+R-T1-CGH3,2022,Roots,California,CGH
+R-T1-CGH4,2022,Roots,California,CGH
+R-T1-MGH1,2022,Roots,California,MGH
+R-T1-MGH2,2022,Roots,California,MGH
+R-T1-MGH3,2022,Roots,California,MGH
+R-T1-MGH4,2022,Roots,California,MGH
+L-T1-CCC1,2022,Leaves,California,CCC
+L-T1-CCC2,2022,Leaves,California,CCC
+L-T1-CCC3,2022,Leaves,California,CCC
+L-T1-CCC4,2022,Leaves,California,CCC
+L-T1-MCC1,2022,Leaves,California,MCC
+L-T1-MCC2,2022,Leaves,California,MCC
+L-T1-MCC3,2022,Leaves,California,MCC
+L-T1-MCC4,2022,Leaves,California,MCC
+L-T1-CGC1,2022,Leaves,California,CGC
+L-T1-CGC2,2022,Leaves,California,CGC
+L-T1-CGC3,2022,Leaves,California,CGC
+L-T1-CGC4,2022,Leaves,California,CGC
+L-T1-CCH1,2022,Leaves,California,CCH
+L-T1-CCH2,2022,Leaves,California,CCH
+L-T1-CCH3,2022,Leaves,California,CCH
+L-T1-CCH4,2022,Leaves,California,CCH
+L-T1-MGC1,2022,Leaves,California,MGC
+L-T1-MGC2,2022,Leaves,California,MGC
+L-T1-MGC3,2022,Leaves,California,MGC
+L-T1-MGC4,2022,Leaves,California,MGC
+L-T1-MCH1,2022,Leaves,California,MCH
+L-T1-MCH2,2022,Leaves,California,MCH
+L-T1-MCH3,2022,Leaves,California,MCH
+L-T1-MCH4,2022,Leaves,California,MCH
+L-T1-CGH1,2022,Leaves,California,CGH
+L-T1-CGH2,2022,Leaves,California,CGH
+L-T1-CGH3,2022,Leaves,California,CGH
+L-T1-CGH4,2022,Leaves,California,CGH
+L-T1-MGH1,2022,Leaves,California,MGH
+L-T1-MGH2,2022,Leaves,California,MGH
+L-T1-MGH3,2022,Leaves,California,MGH
+L-T1-MGH4,2022,Leaves,California,MGH

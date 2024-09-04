@@ -24,6 +24,8 @@ treatment_dict_CA = {
 }
 treatment_dict_app = {v: k for k, v in treatment_dict_CA.items()}
 
+problematic_data = ["CCCT1R1", "L-T1-CCH1", "L-T1-CCH4", "L-T1-MCC4", "R-T1-MGC1"]
+
 
 app = Dash(__name__)
 server = app.server
@@ -59,6 +61,7 @@ app.layout = [
         ],
         style={"display": "flex", "flexDirection": "row"},
     ),
+    html.Div(children="Suspected problematic data are prefixed with *"),
     dcc.Graph(figure={}, id="percentage-stacked-bar"),
 ]
 
@@ -67,12 +70,15 @@ def get_dataframe(amplicon_type, tissue, treatment, rank):
     otu_df = otu_dfs[amplicon_type]
     taxa_df = taxa_dfs[amplicon_type]
     metadata = metadata_df[metadata_df.index.isin(otu_df.columns)]
-    sel_idx = metadata[(metadata["Treatment"] == treatment) & (metadata["Tissue_type"] == tissue)].index
-    otu_df = otu_df.loc[:, sel_idx]
+    metadata = metadata[(metadata["Treatment"] == treatment) & (metadata["Tissue_type"] == tissue)]
+    otu_df = otu_df.loc[:, metadata.index]
     perc_df = otu_df / otu_df.sum() * 100
     perc_df = pd.merge(perc_df, taxa_df, left_index=True, right_index=True).groupby(by=list(phylo_ranks[: phylo_ranks.index(rank) + 1])).sum(numeric_only=True)
     perc_df = perc_df.reindex(perc_df.mean(axis=1).sort_values(ascending=False).index)
     perc_df = perc_df[perc_df.sum(axis=1) != 0]
+    for sample in metadata[metadata.index.isin(problematic_data)].index:
+        perc_df.rename({sample: f"*{sample}"}, axis=1, inplace=True)
+        metadata.rename({sample: f"*{sample}"}, axis=0, inplace=True)
     return perc_df, metadata
 
 
